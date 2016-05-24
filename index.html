@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang = "pl">
+   <head>
+      <meta charset= "UTF-8">
+      <title> Top Strzelcy SERIE A</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script> 
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <div id="left"></div>
+      <section>
+         <header>
+            <img src="seria.png" alt="logo_serie_A">
+            <div id="header">
+               <h1>Top strzelcy Serie A</h1>
+               <h2>sezon 2016/2017</h2>
+            </div>
+         </header>
+         <table >
+            <thead>
+            	<tr>
+               	<th id="pozycja">POZYCJA</th>
+              	 	<th id="zawodnik">ZAWODNIK</th>
+               	<th id="gole">GOLE</th>
+            	</tr>
+            </thead>
+            <tbody id="tBody">
+            </tbody>
+         </table>
+         <div class="buttonField">
+         	<input id="back"class="hidden" type="submit" value="back" action="/1" method="get">
+         	<input id="next"class="button" type="submit" value="next" action="/1" method="get">
+         </div>
+       </section>
+      <footer id="footer">
+         <div id="container">
+            <p id="text-muted">powered by PGS</p>
+         </div>
+      </footer>
+      <script src="index.js"></script>
+   </body>
+</html>
+
